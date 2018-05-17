@@ -1,0 +1,260 @@
+/*BEGIN HEADER*/
+.header__top .container {
+	width: 100%;
+	max-width: 1220px;
+	padding: 0;
+}
+.header__top .container img {
+	width: 100%;
+}
+.header__menu {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.header__middle {
+	background: -webkit-linear-gradient( -180deg, rgb(50,125,160) 0%, rgb(34,78,99) 100%);
+	background: -ms-linear-gradient( -180deg, rgb(50,125,160) 0%, rgb(34,78,99) 100%);
+	height: 145px;
+	z-index: 100;
+	position: relative;
+}
+header ul {
+	list-style: none;
+	padding-left: 0;
+}
+.header__middle_menu li,
+.header__middle_social li,
+.footer__menu_link li {
+	display: inline-block;
+}
+.footer__social_link li {
+    float: left;
+}
+.header__middle_menu {
+	float: left;
+	margin-bottom: 30px;
+}
+.header__middle_social {
+	float: right;
+}
+.header__middle_social a {
+	color: #fff;
+	font-size: 20px;
+	padding: 13px 8px;
+	display: block;
+}
+.header__middle_social li:last-child a {
+	padding-right: 0px;
+}
+.header__middle_social li:first-child a {
+	padding-left: 0px;
+}
+/*.header__middle_social a:hover {
+	color: rgb(52, 73, 94);
+	background-color: #fff;
+	}*/
+	.header__middle_menu a {
+		display: block;
+		font-size: 18px;
+		font-family: "MyriadProBold";
+		color: #fff;
+		padding: 13px 20px;
+		text-transform: uppercase;
+		margin-right: -5px;
+	}
+	.header__middle_menu a.active,
+	.header__middle_menu a:hover {
+		background-color: #fff;
+		color: rgb(52, 73, 94);
+		text-decoration: none;
+	}
+	.header__middle_logo.col-md-3 {
+		padding-left: 0;
+	}
+	.header__middle_login.col-md-3 {
+		padding: 0;
+	}
+	.header__middle_login a {
+		font-size: 18px;
+		font-family: "MyriadProRegular";
+		color: rgb(255, 255, 255);
+		line-height: 2.63;
+	}
+	.header__middle_login a:hover {
+		text-decoration: none;
+		color: rgb(255, 255, 255); 
+	}
+	.header__middle_login .add {
+		margin-right: 30px;
+	}
+	.header__middle_search.col-md-6 {
+		padding: 0;
+		width: 442px;
+		position: absolute;
+		top: 79px;
+		left: 255px;
+	}
+	.header__middle_search input {
+		font-family: "MyriadProLight";
+	}
+	.header__middle_search .location {
+		font-size: 20px;
+		font-family: "MyriadProRegular";
+		border-left: 1px solid rgb(52, 73, 94);
+		border-top: none;
+		border-right: none;
+		border-bottom: none;
+		width: 122px;
+		background-color: rgb(255, 255, 255);
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.header__middle_search .location a {
+		text-decoration: underline;
+		margin-left: 10px;
+		color: rgb(52, 73, 94);
+	}
+	.header__middle_search .input-group-btn .btn-default {
+		background-color: rgb(52, 73, 94);
+		height: 40px;
+		width: 60px;
+		color: #fff;
+		font-size: 16px;
+		border-color: rgb(52, 73, 94);
+	}
+	.header__middle_search .form-control {
+		border-radius: 5px;
+		height: 40px;
+	}
+	.header__middle_search .form-control,
+	.header__middle_search .form-control:focus {
+		border: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.header__middle_search .input-group {
+		margin-top: 7px;
+	}
+	.header__middle_login {
+		margin-top: 3px;
+		margin-right: 0;
+	}
+	.header__bottom .container {
+		padding: 0;
+	}
+/*	.header__bottom_menu {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		margin-top: 15px;
+		margin-bottom: 40px;
+	}*/
+	.header__bottom_menu {
+		display: block;
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 40px;
+	}
+	.header__bottom_menu a {
+		display: inline-block;
+		font-size: 17px;
+		font-family: "MyriadProRegular";
+		color: rgb(0, 0, 0);
+		line-height: 30px;
+		border-right: 1px solid rgb(48, 118, 150);
+		padding-right: 8px;
+		padding-left: 8px;
+		margin-right: -4px;
+	}
+	.header__bottom_menu a:first-child {
+		padding-left: 0;
+	}
+	.header__bottom_menu a:last-child {
+		border-right: none;
+		padding-right: 0;
+	}
+	.header__menu-block {
+		display: none;
+	}
+	.header__menu .close {
+		display: none;
+	}
+
+	/*navbar*/
+	.navbar-header>button.btn-default {
+		display: none;
+	}
+	.navbar-toggle {
+		margin: 0;
+		padding: 2px 0 0;
+		color: white;
+		font-size: 27px;
+		height: 45px;
+	}
+	.block-mobile {
+		height: 43px;
+		position: absolute;
+		top: 86px;
+		left: 20px;
+
+	}
+	/*end navbar*/
+
+	/*END HEADER*/
+
+	/*BEGIN FOOTER*/
+	footer {
+		height: 163px;
+		padding-top: 75px;
+	}
+	footer {
+		padding-top: 140px;
+	}
+	footer .row {
+		margin-bottom: 30px;
+	}
+	.footer__menu,
+	.footer__social {
+		padding: 0;
+	}
+	.footer__menu_link {
+		padding-left: 0;
+		list-style: none;
+	}
+	.footer__social_link {
+		float: right;
+		padding-left: 0;
+		list-style: none;
+	}
+	.footer__social_link li {
+		border-radius: 2px;
+		background-color: rgb(31, 44, 57);
+		margin-left: 7px;
+	}
+	.footer__menu_link li {
+		float: left;
+	}
+	.footer__menu_link li:not(:last-child) {
+		margin-right: 1.1em;
+	}
+	.footer__menu_link li a {
+		font-size: 16px;
+		font-family: "MyriadProLight";
+		color: rgb(2, 2, 2);
+		line-height: 32px;
+		height: 32px;
+		text-align: center;
+	}
+	.footer__social_link li a {
+		color: #fff;
+		height: 32px;
+		width: 32px;
+		display: block;
+		text-align: center;
+		line-height: 32px;
+		font-size: 2px;
+	}
+/*END FOOTER*/

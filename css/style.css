@@ -1,0 +1,100 @@
+@import url('catalog-header_footer.css');
+@import url('reg-pop-up.css');
+@import url('menu_user.css');
+@import url('news.css');
+@import url('profile.css');
+@import url('company-catalog.css');
+@import url('map-yandex.css');
+@import url('nanoscroller.css');
+@import url('menu_company.css');
+
+body {
+	font-family: "MyriadProRegular";
+	margin: 0;
+	padding: 0;
+	min-width: 320px;
+	overflow-x: hidden;
+}
+.container {
+	position: relative;
+	max-width: 1061px;
+}
+
+/*BEGIN MAIN*/
+.section__offer {
+	padding-top: 15px;
+}
+.section__offer .col-md-3,
+.section__offer .col-sm-3 {
+	padding: 0 3px 5px 0;
+}
+.section__offer_item {
+	display: block;
+	height: 105px;
+	line-height: 105px;
+	text-align: center;
+	font-size: 15.64px;
+	font-family: "MyriadProRegular";
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	background-color: rgb(205, 205, 205);
+}
+.section__offer_item:hover,
+.section__offer_item:focus {
+	color: rgb(255, 255, 255);
+}
+
+/*begin section service*/
+.section__service {
+	padding-top: 55px
+}
+.section__service_block .row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.section__service_item {
+	width: 33%;
+	margin-bottom: 35px;
+	margin-right: -3px;
+}
+.section__service_item:last-child {
+	position: absolute;
+	top: 592px;
+	left: 0px;
+}
+.section__service_item h2 {
+	color: rgb(0, 0, 0);
+	font-family: "MyriadProBold";
+	text-transform: uppercase;
+	margin: 8px 0;
+}
+.section__service_item a {
+	color: #307798;
+	line-height: 16px;  
+	font-family: "MyriadProRegular";
+}
+.section__service_item li {
+	padding: 5px 0;
+}
+.section__service_item h2,
+.section__service_item a {
+	font-size: 20px;
+}
+.section__service_item img {
+	height: 50px;
+	margin-bottom: 9px;
+}
+.section__service_banner {
+	padding-right: 0;
+}
+.section__service_banner img {
+	width: 240px;
+	height: 400px;
+	float: right;
+}
+/*end section service*/
+
+/*END MAIN*/

@@ -1,0 +1,248 @@
+@media (max-width: 992px) {
+	.profile__wrapper header,
+	.nav__block {
+		display: none;
+	}
+	.profile__content {
+		padding: 86px 20px 75px;
+	}
+	.profile__block_avatar .profile__block_id,
+	.profile__block_data .control-label,
+	.profile__block_data .form-control, 
+	.profile__block_data .form-control::-webkit-input-placeholder,
+	.profile__block_data button[type='submit'],
+	.profile__wrapper .profile__content .social__block_title {
+		font-size: 18px;
+	}
+	.profile__block_avatar .profile__block_id,
+	.profile__block_data .control-label,
+	.profile__block_data .form-control, 
+	.profile__block_data .form-control:-ms-input-placeholder,
+	.profile__block_data button[type='submit'],
+	.profile__wrapper .profile__content .social__block_title {
+		font-size: 18px;
+	}
+	.profile__block_avatar .profile__block_id,
+	.profile__block_data .control-label,
+	.profile__block_data .form-control, 
+	.profile__block_data .form-control::-ms-input-placeholder,
+	.profile__block_data button[type='submit'],
+	.profile__wrapper .profile__content .social__block_title {
+		font-size: 18px;
+	}
+	.profile__block_avatar .profile__block_id,
+	.profile__block_data .control-label,
+	.profile__block_data .form-control, 
+	.profile__block_data .form-control::placeholder,
+	.profile__block_data button[type='submit'],
+	.profile__wrapper .profile__content .social__block_title {
+		font-size: 18px;
+	}
+	.profile__wrapper .profile__content .social__block_title {
+		padding: 0;
+	}
+	.profile__wrapper .page-content > .close {
+		display: block;
+	}
+	.wrapper.profile__wrapper .profile__content > div.row:nth-child(1) {
+		margin-bottom: 50px;
+	}
+	.profile__block_image, 
+	.profile__block_avatar .image__change_overlay {
+		height: 130px;
+		width: 130px;
+	}
+	.profile__wrapper .form-horizontal .control-label {
+		margin-bottom: 0;
+		text-align: right;
+	}
+	.profile__wrapper .footer__menu_link {
+		padding: 0 18px;
+	}
+	.profile__wrapper .footer__menu_link li a {
+		font-size: 16px;
+	}
+	.profile__wrapper .footer__menu_link li {
+        width: initial;
+        margin-right: 1.1em;
+        padding: 0;
+    }
+    .profile__wrapper .footer__social_link {
+    	float: right;
+    }
+}
+@media screen and (max-width: 703px) {
+	.profile__block_data .form-group .col-sm-3 {
+		width: 100%;
+	}
+	.profile__block_data .form-group .col-sm-9 {
+		width: 100%;
+	}
+	.profile__wrapper .profile__content > div.row:nth-child(2) {
+		padding-right: 0;
+	}
+	.profile__wrapper .profile__content .sign-in__social_links,
+	.profile__wrapper .profile__content .social__block_title,
+	.profile__block_data .control-label,
+	.profile__block_data .form-control {
+		text-align-last: center;
+		text-align: center;
+	}
+	.profile__block_avatar .profile__block_id,
+	.profile__block_data .control-label,
+	.profile__block_data .form-control, 
+	.profile__block_data .form-control::-webkit-input-placeholder,
+	.profile__block_data button[type='submit'],
+	.profile__wrapper .profile__content .social__block_title {
+		font-size: 16px;
+	}
+	.profile__block_avatar .profile__block_id,
+	.profile__block_data .control-label,
+	.profile__block_data .form-control, 
+	.profile__block_data .form-control:-ms-input-placeholder,
+	.profile__block_data button[type='submit'],
+	.profile__wrapper .profile__content .social__block_title {
+		font-size: 16px;
+	}
+	.profile__block_avatar .profile__block_id,
+	.profile__block_data .control-label,
+	.profile__block_data .form-control, 
+	.profile__block_data .form-control::-ms-input-placeholder,
+	.profile__block_data button[type='submit'],
+	.profile__wrapper .profile__content .social__block_title {
+		font-size: 16px;
+	}
+	.profile__block_avatar .profile__block_id,
+	.profile__block_data .control-label,
+	.profile__block_data .form-control, 
+	.profile__block_data .form-control::placeholder,
+	.profile__block_data button[type='submit'],
+	.profile__wrapper .profile__content .social__block_title {
+		font-size: 16px;
+	}
+	.profile__block_avatar .profile__block_id,
+	.profile__block_data .control-label,
+	.profile__block_data .form-control, 
+	.profile__block_data .form-control::-webkit-input-placeholder,
+	.profile__wrapper .profile__content .social__block_title {
+		font-family: "MyriadProLight";
+	}
+	.profile__block_avatar .profile__block_id,
+	.profile__block_data .control-label,
+	.profile__block_data .form-control, 
+	.profile__block_data .form-control:-ms-input-placeholder,
+	.profile__wrapper .profile__content .social__block_title {
+		font-family: "MyriadProLight";
+	}
+	.profile__block_avatar .profile__block_id,
+	.profile__block_data .control-label,
+	.profile__block_data .form-control, 
+	.profile__block_data .form-control::-ms-input-placeholder,
+	.profile__wrapper .profile__content .social__block_title {
+		font-family: "MyriadProLight";
+	}
+	.profile__block_avatar .profile__block_id,
+	.profile__block_data .control-label,
+	.profile__block_data .form-control, 
+	.profile__block_data .form-control::placeholder,
+	.profile__wrapper .profile__content .social__block_title {
+		font-family: "MyriadProLight";
+	}
+	.profile__block_avatar {
+		border-bottom: 1px solid #bbb;
+	}
+	.profile__content .sign-in__social_links img {
+		width: 43px;
+		height: 43px;
+	}
+	.profile__wrapper .profile__content .sign-in__social_links li:not(:first-child) {
+		margin-left: 22px;
+	}
+	.profile__content {
+		padding: 75px 15px 35px;
+	}
+	.profile__wrapper .form-horizontal .form-group {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.profile__block_data {
+		margin: 0px;
+	}
+	.profile__content .profile__block_data .form-group > div {
+		padding: 0;
+	}
+	.profile__block_avatar {
+		padding-bottom: 18px;
+		margin-bottom: 10px;
+	}
+	.profile__block_data .form-control,
+	.profile__block_data .form-control::-webkit-input-placeholder {
+		height: 40px;
+		text-align: center;
+	}
+	.profile__block_data .form-control,
+	.profile__block_data .form-control:-ms-input-placeholder {
+		height: 40px;
+		text-align: center;
+	}
+	.profile__block_data .form-control,
+	.profile__block_data .form-control::-ms-input-placeholder {
+		height: 40px;
+		text-align: center;
+	}
+	.profile__block_data .form-control,
+	.profile__block_data .form-control::placeholder {
+		height: 40px;
+		text-align: center;
+	}
+	.profile__block_image, 
+	.profile__block_avatar .image__change_overlay {
+		height: 110px;
+		width: 110px;
+	}
+	.profile__block_data .control-label {
+		line-height: 1.786;
+	}
+	.profile__block_data label,
+	.profile__block_data .form-group {
+		margin-bottom: 0px;
+	}
+	.profile__block_data .form-group button {
+		margin-top: 10px;
+	}
+	.wrapper.profile__wrapper .profile__content > div.row:nth-child(1) {
+		margin-bottom: 20px;
+	}
+	.profile__block_data .block__b-day select {
+		background-position: 95% center;
+	}
+	.profile__block_data select#sel4 {
+		background-position: 98.5% center;
+	}
+	.profile__wrapper footer .col-xs-8,
+	.profile__wrapper footer .col-xs-4 {
+		width: 100%;
+	}
+	.profile__wrapper .footer__menu_link {
+		padding: 0;
+	}
+	.profile__wrapper .footer__menu_link li a {
+		font-size: 12px;
+	}
+	.profile__wrapper .footer__menu_link li {
+        width: 50%;
+        margin-right: 0;
+        padding: 0 0 0 26px;
+    }
+    .profile__wrapper .footer__social_link {
+    	float: none;
+    }
+    .profile__content .col-xs-3,
+    .profile__content .col-xs-9 {
+    	width: 100%;
+    }
+    .profile__block_social .col-xs-6,
+    .profile__block_social .col-xs-6 {
+    	width: 100%;
+    }
+}

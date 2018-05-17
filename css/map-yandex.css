@@ -1,0 +1,67 @@
+.catalog-map {
+	margin-top: 55px;
+}
+.catalog-map__yandex {
+	width: 70%;
+	height: 355px;
+	float: left;
+}
+.catalog-map__list {
+	padding: 10px 15px 0 30px;
+	font-size: 16px;
+}
+.catalog-map__list-item > .submenu li {
+	position: relative;
+	padding-left: 14px;
+	padding-bottom: 10px;
+}
+.catalog-map__list-item > .submenu li > a,
+.catalog-map__yandex-item-link {
+	color: #307798;
+	font-size: 20px;
+    font-family: "MyriadProRegular";
+}
+.catalog-map__yandex-item-link {
+	text-decoration: underline;
+}
+.catalog-map__yandex-item-link:hover {
+	color: #307798;
+	text-decoration: none;
+}
+.catalog-map__list-item .submenu .fa-map-marker {
+	position: absolute;
+	display: block;
+	top: 6px;
+	left: 0;
+	color: #307798;
+	font-size: 16px;
+}
+
+/*MEDIA*/
+
+@media screen and (max-width: 992px) {
+	.catalog-map__list-item > .submenu li > a, .catalog-map__yandex-item-link {
+		font-size: 18px;
+	}
+	.catalog-map__list-item .submenu .fa-map-marker {
+		top: 3px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.catalog-map__yandex,
+	.catalog-map .nano {
+		float: none;
+		width: 100%;
+		height: 200px;
+	}
+	.catalog-map__list-item > .submenu li > a, .catalog-map__yandex-item-link {
+		font-size: 15px;
+	}
+	.catalog-map__list-item .submenu .fa-map-marker {
+		top: 4px;
+		font-size: 14px;
+	}
+	.catalog-map__list {
+        padding: 10px 0;
+    }
+}

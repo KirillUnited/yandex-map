@@ -1,0 +1,88 @@
+.header__menu-reg {
+	float: right;
+}
+.header__menu-city-search {
+	display: none;
+}
+.header__middle_search_mobile {
+	display: none;
+  text-align: center;
+  padding: 25px 10px;
+}
+.search-mobile-input,
+.search-mobile-btns {
+  width: 300px;
+  margin: auto;
+}
+.search-mobile-input {
+  margin-bottom: 20px;
+}
+.search-mobile-input form,
+.search-mobile-btns__btn:first-child {
+  float: left;
+}
+.search-mobile-input .cancel__text,
+.search-mobile-btns__btn:nth-of-type(2) {
+  float: right;
+}
+.search-mobile-input .form-control {
+  font-size: 12px;
+  font-family: "MyriadProLight";
+  width: 240px;
+  height: 40px;
+  border: 1px solid #34495e;
+  border-radius: 3px;
+  padding-left: 40px;
+}
+.search-mobile-input form {
+  position: relative;
+  height: 40px;
+}
+.search-mobile-input form:before {
+  position: absolute;
+  display: block;
+  content: '';
+  background: url('../img/search-grey.png');
+  width: 17px;
+  height: 17px;
+  top: 50%;
+  left: 10px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.search-mobile-btns__btn {
+  display: inline-block;
+  width: 145px;
+  line-height: 30px;
+  border: 1px solid #34495e;
+  border-radius: 3px;
+}
+.search-mobile-btns__btn,
+.search-mobile-input .cancel__text {
+  font-size: 16px;
+  font-family: "MyriadProLight";
+  color: #34495e;  
+}
+.search-mobile-btns__btn:hover,
+.search-mobile-input .cancel__text:hover,
+.search-mobile-btns__btn:focus,
+.search-mobile-input .cancel__text:focus {
+  text-decoration: none;
+}
+.search-mobile-btns__btn_active {
+  color: #fff;
+  background-color: #4285f4;
+  border: 1px solid #4285f4;
+}
+.search-mobile-btns__btn_active:hover,
+.search-mobile-btns__btn_active:focus {
+  color: #fff;
+}
+.search-mobile-input .cancel__text,
+.search-mobile-input .form-control {
+  display: inline-block;
+}
+.search-mobile-input .cancel__text {
+  line-height: 40px;
+}

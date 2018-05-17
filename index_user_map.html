@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+
+	<title>Каталог|Пользователь</title>
+
+	<link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+
+	<script src="https://api-maps.yandex.ru/2.1/?load=package.standard&amp;lang=ru-RU"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+	<div class="wrapper catalog__wrapper">
+		<!-- BEGIN HEADER -->
+		<header>
+			<div class="header__top">
+				<div class="container">
+					<img src="img/BANNER1.png" alt="BANNER1" title="BANNER1">
+				</div>
+			</div>
+			<div class="header__middle">
+				<!-- navbar -->
+				<div class="container">
+					<div class="row">
+						<div class="navbar-header">
+							<a href="#">
+								<img class="block-mobile" src="img/Logo white.png" alt="Drive24" title="Главная">					
+							</a>
+							<div class="header__middle_user navbar-right" id="user">
+								<div class="close">
+									<img src="img/close-white.png" alt="close">
+								</div>
+								<div class="user__balance">
+									<div class="user__balance_count">&#36; 0.004</div>
+									<a href="#">Куда потратить?</a>
+								</div>
+								<div class="user__block">
+									<div class="user__block_avatar">
+										<img class="img-circle" src="img/user_image.png" alt="user image" title="user">
+										<div class="user__name">dfbdfbdbfbf</div>
+									</div>
+									<ul class="user__block_menu">
+										<li><a href="#">Профиль</a></li>
+										<li><a href="#">Закладки</a></li>
+										<li class="message"><a href="#">Сообщения</a><span>33</span></li>
+										<li class="notice"><a href="#">Уведомления</a><span>3</span></li>
+										<li><a href="#">Настройки</a></li>
+										<li><a href="#">Помощь</a></li>
+										<li><a href="#">Выйти</a></li>
+									</ul>
+								</div>										
+							</div>
+							<button class="btn btn-default" type="submit">
+								<img src="img/search.png" alt="search">
+							</button>
+							<button type="button" class="navbar-toggle btn-user" data-toggle="" data-target="">
+								<i class="ion-navicon-round"></i>                   
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<div class="row">
+								<ul class="header__middle_menu">
+									<li><a href="#">новости</a></li>
+									<li><a class="active" href="#">каталог</a></li>
+								</ul>
+								<ul class="header__middle_social">
+									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+
+							<div class="row">
+								<div class="header__middle_search col-md-6">
+									<form>
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="Что хотите найти?">
+											<span class="input-group-addon location">
+												<img src="img/map-marker.png" alt="map-marker">
+												<a href="#">Минск</a>
+											</span>
+											<div class="input-group-btn">
+												<button class="btn btn-default" type="submit">
+													<img src="img/search.png" alt="search">
+												</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end navbar -->
+
+			</div>
+			<div class="header__bottom">
+				<div class="container">
+					<div class="header__bottom_menu">
+						<a href="#">СТО и ремонт</a>
+						<a href="#">Автопомощь</a>
+						<a href="#">Автозаправки и мойки</a>
+						<a href="#">ГАИ, гостехосмотр, стоянки</a>
+						<a href="#">Обучением</a>
+						<a href="#">Покупка и продажа</a>
+						<a href="#">Финансы и страхование</a>
+					</div>					
+				</div>
+			</div>
+
+
+		</header>
+
+
+		<!-- END HEADER -->
+
+		<!-- BEGIN MAIN -->
+		<section class="main">
+			<div class="page-content workarea">
+				<div class="container">
+					<div class="workarea-wrap">
+						<div class="section__offer">
+							<div class="row">
+								<div class="col-md-3 col-sm-3">
+									<a class="section__offer_item" href="#">Лучшее предложение</a>
+								</div>
+								<div class="col-md-3 col-sm-3">
+									<a class="section__offer_item" href="#">Лучшее предложение</a>
+								</div>
+								<div class="col-md-3 col-sm-3">
+									<a class="section__offer_item" href="#">Лучшее предложение</a>
+								</div>
+								<div class="col-md-3 col-sm-3">
+									<a class="section__offer_item" href="#">Лучшее предложение</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- MAP -->
+						<div class="catalog-map">
+							<div class="catalog-map__yandex" id="map"></div>
+							<div id="about" class="nano">
+								<div class="nano-content">
+								</div>
+							</div>
+						</div>
+						<!-- END MAP -->
+
+						<div class="section__service">
+							<div class="row">
+								<div class="section__service_block col-md-9 col-sm-8 col-xs-12">
+									<div class="row">
+										<div class="section__service_item">
+											<img src="img/main-service-icon/1.svg" alt="СТО" title="СТО">
+											<h2>сто и ремонт</h2>
+											<ul class="list-unstyled">
+												<li>
+													<a href="#">СТО</a>
+												</li>
+												<li>
+													<a href="#">Шиномонтаж</a>
+												</li>
+												<li>
+													<a href="#">Оборудование для СТО</a>
+												</li>
+												<li>
+													<a href="#">Перетяжка и ремонт салона</a>
+												</li>
+											</ul>
+										</div>
+										<div class="section__service_item">
+											<img src="img/main-service-icon/4.svg" alt="Автопомощь" title="Автопомощь">
+											<h2>Автопомощь</h2>
+											<ul class="list-unstyled">
+												<li>
+													<a href="#">Эвакуация</a>
+												</li>
+												<li>
+													<a href="#">Вскрытие замков</a>
+												</li>
+												<li>
+													<a href="#">Техническая помощь на дорогах</a>
+												</li>
+											</ul>
+										</div>
+										<div class="section__service_item">
+											<img src="img/main-service-icon/7.svg" alt="Автозаправки и мойки" title="Автозаправки и мойки">
+											<h2>Автозаправки и мойки</h2>
+											<ul class="list-unstyled">
+												<li>
+													<a href="#">Автомойки, химчистки</a>
+												</li>
+												<li>
+													<a href="#">АЗС</a>
+												</li>
+											</ul>
+										</div>
+										<div class="section__service_item">
+											<img src="img/main-service-icon/3.svg" alt="Гаи, Гостехосмотр, стоянки" title="Гаи, Гостехосмотр, стоянки">
+											<h2>ГАИ, гостехосмотр, стоянки</h2>
+											<ul class="list-unstyled">
+												<li>
+													<a href="#">ГАИ</a>
+												</li>
+												<li>
+													<a href="#">Гостехосмотр</a>
+												</li>
+												<li>
+													<a href="#">Штрафстоянки</a>
+												</li>
+												<li>
+													<a href="#">Автостоянки</a>
+												</li>
+												<li>
+													<a href="#">Гаражи</a>
+												</li>
+											</ul>
+										</div>
+										<div class="section__service_item">
+											<img src="img/main-service-icon/2.svg" alt="Обучение" title="Обучение">
+											<h2>Обучение</h2>
+											<ul class="list-unstyled">
+												<li>
+													<a href="#">Автошколы</a>
+												</li>
+												<li>
+													<a href="#">Курсы вождения</a>
+												</li>
+												<li>
+													<a href="#">Аэроклубы</a>
+												</li>
+												<li>
+													<a href="#">Обучение яхтингу</a>
+												</li>
+											</ul>
+										</div>
+										<div class="section__service_item">
+											<img src="img/main-service-icon/6.svg" alt="Покупка и продажа авто, мототехники" title="Покупка и продажа авто, мототехники">
+											<h2>Покупка и продажа<br> авто, мототехники</h2>
+											<ul class="list-unstyled">
+												<div>
+													<li>
+														<a href="#">Автоломбарды</a>
+													</li>
+													<li>
+														<a href="#">Автодилеры</a>
+													</li>
+													<li>
+														<a href="#">Автохаусы</a>
+													</li>
+													<li>
+														<a href="#">Мототехника</a>
+													</li>
+													<li>
+														<a href="#">Оценка</a>
+													</li>
+												</div>
+												<div>
+													<li>
+														<a href="#">Продажа грузовых авто</a>
+													</li>
+													<li>
+														<a href="#">Продажа спецтехники</a>
+													</li>
+													<li>
+														<a href="#">Продажа и аренда  прицепов</a>
+													</li>
+												</div>
+
+
+											</ul>
+										</div>
+										<div class="section__service_item">
+											<img src="img/main-service-icon/5.svg" alt="Финасны и страхование" title="Финансы и страхование">
+											<h2>Финансы и страхование</h2>
+											<ul class="list-unstyled">
+												<li>
+													<a href="#">Банки</a>
+												</li>
+												<li>
+													<a href="#">Страховые компании</a>
+												</li>
+												<li>
+													<a href="#">Лизинговые компании</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="section__service_banner col-md-3 col-sm-4">
+									<img src="img/Banner-main.png" alt="Автошкола" title="Автошкола">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END MAIN -->
+
+		<!-- BEGIN FOOTER -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="footer__menu col-md-9 col-sm-8 col-xs-12">
+						<ul class="footer__menu_link">
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Реклама</a></li>
+							<li><a href="#">Вакансии</a></li>
+							<li><a href="#">Манифест</a></li>
+							<li><a href="#">Правила</a></li>
+							<li><a href="#">Публичный договор</a></li>
+							<li><a href="#">Поддержка пользователей</a></li>
+						</ul>
+					</div>
+					<div class="footer__social col-md-3 col-sm-4 col-xs-12">
+						<ul class="footer__social_link">
+							<li>
+								<a href="#">
+									<img src="img/footer__social_link/vk.png" alt="vk">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/footer__social_link/fb.png" alt="fb">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/footer__social_link/insta.png" alt="insta">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/footer__social_link/ok.png" alt="ok">
+								</a>
+							</li>
+						</ul>
+					</div>				
+				</div>
+			</div>
+		</footer>
+		<!-- END FOOTER -->
+
+		<!-- POP-UPs -->
+		<div class="popups">
+
+			<div class="popup__sign-in popup">
+				<div class="close">
+					<img src="img/close.png" alt="close">
+				</div>
+				<div class="popup__content">
+					<h2>Добро пожаловать!</h2>
+					<form action="">
+						<input type="email" class="form-control" placeholder="Введите email">
+						<input type="password" class="form-control" placeholder="Введите пароль">
+						<button class="btn btn-default" type="submit">
+							ВОЙТИ
+						</button>
+					</form>
+					<div class="remember-password">
+						<a href="#">Забыли пароль или не можете войти?</a>
+					</div>
+					<div class="registration">
+						<a href="#">РЕГИСТРАЦИЯ</a>	
+					</div>
+					<div class="sign-in__social">
+						<h3>Войти с помощью</h3>
+						<ul class="sign-in__social_links list-unstyled">
+							<li>
+								<a href="#"><img src="img/sign-in__social_links/google.png" alt="google" title="google"></a>
+							</li>
+							<li>
+								<a href="#"><img src="img/sign-in__social_links/VK.png" alt="VK" title="VK"></a>
+							</li>
+							<li>
+								<a href="#"><img src="img/sign-in__social_links/facebook.png" alt="facebook" title="facebook"></a>
+							</li>
+							<li>
+								<a href="#"><img src="img/sign-in__social_links/OK.png" alt="OK" title="OK"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="popup__sign-up popup">
+				<div class="close">
+					<img src="img/close.png" alt="close">
+				</div>
+				<div class="popup__content">
+					<h2>Добро пожаловать!</h2>
+					<form action="">
+						<input type="text" class="form-control" placeholder="Введите Ваше имя">
+						<input type="email" class="form-control" placeholder="Введите email">
+						<input type="password" class="form-control" placeholder="Введите пароль">
+						<input type="password" class="form-control" placeholder="Введите повторно пароль">
+						<button class="btn btn-default" type="submit">
+							ЗАРЕГИСТРИРОВАТЬСЯ
+						</button>
+					</form>
+					<p>Регистрируясь, вы соглашаетесь с <a href="#">правилами</a>.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- END POP-UP -->
+	</div>
+
+	<!-- scripts -->
+
+	<script type="text/javascript" src="libs/jquery-3.3.1.min.js"></script>
+
+	<script src="libs/jquery.nanoscroller.min.js"></script>
+	<script>
+		$('.nano').nanoScroller();
+	</script>
+	
+	<script type="text/javascript" src="libs/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script type="text/javascript" src="js/custom-yandex-map.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,215 @@
+.header__middle_user {
+  position: absolute;
+  right: 0px;
+  top: 81px;
+}
+
+.header__middle_user,
+.header__middle_user a {
+  color: #fff;
+}
+
+.user__balance,
+.user__block,
+.user__block_avatar img,
+.user__name {
+  display: inline-block;
+}
+
+.user__balance {
+  text-align: center;
+}
+
+.user__balance,
+.user__block {
+  margin: 0 15px;
+  vertical-align: middle;
+}
+
+.user__block {
+  margin-right: 0;
+}
+
+.user__balance_count {
+  color: #ffe447;
+  border: 2px solid #ffe447;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "MyriadProSemiBold";
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.user__balance a {
+  display: inline-block;
+  font-size: 13px;
+  color: #fff;
+  font-family: "MyriadProLight";
+  text-decoration: underline;
+  margin-top: 5px;
+}
+
+.user__block_avatar {
+  position: relative;
+  cursor: pointer;
+  z-index: 250;
+}
+
+.user__block_avatar-fix {
+  left: -35px;
+}
+
+.user__block_avatar-fix:before {
+  position: absolute;
+  display: block;
+  content: "";
+  border-top: 1px solid #fff;
+  bottom: -20px;
+  width: 220px;
+}
+
+.user__block_avatar .img-circle {
+  position: relative;
+  display: inline-block;
+}
+
+.user__block_avatar .img-circle {
+  float: left;
+  margin-right: 15px;
+}
+
+.user__block_avatar .img-circle:after {
+  position: absolute;
+  display: block;
+  content: '';
+  border-radius: 50%;
+  background-color: rgb(252, 22, 43);
+  width: 14px;
+  height: 14px;
+  top: 0px;
+  left: 40px;
+}
+
+.user__block_avatar img {
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user__name {
+  display: block;
+  font-size: 18px;
+  font-family: "MyriadProBold";
+  color: #fff;
+  margin-left: 12px;
+  width: 48px;
+}
+
+.user__name,
+.user__block_menu li span,
+.user__block_menu li span {
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.user__id {
+  display: none;
+  font-size: 16px;
+  font-family: "MyriadProLight";
+  color: #fff;
+  white-space: nowrap;
+}
+
+.user__id_active {
+  display: block;
+}
+
+.user__block {
+  position: relative;
+}
+
+.user__block_menu {
+  display: none;
+  position: absolute;
+  background-color: rgb(52, 73, 94);
+  width: 260px;
+  padding: 100px 0px 20px;
+  top: -23px;
+  left: -55px;
+}
+
+/*.user__block_menu:before {
+	position: absolute;
+	display: block;
+	content: "";
+	top: 85px;
+	left: 24px;
+	border-top: 1px solid #fff;
+	width: 220px;
+}*/
+
+/*.user__block_menu:after {
+	position: absolute;
+	display: block;
+	content: "Номер уч.записи";
+	font-size: 16px;
+	font-family: "MyriadProLight";
+	top: 50px;
+	left: 105px;
+}*/
+
+.user__block_menu a {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  line-height: 33px;
+  padding: 0 20px;
+}
+
+.user__block_menu a:hover {
+  background-color: #617990;
+  text-decoration: none;
+}
+
+.user__block_menu li {
+  position: relative;
+  margin-top: 4px;
+}
+
+.user__block_menu li span {
+  position: absolute;
+  display: block;
+  color: #fff;
+  top: 50%;
+  right: 20px;
+  height: 22px;
+  width: 22px;
+  text-align: center;
+  line-height: 22px;
+  border-radius: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-family: "MyriadProBold";
+  font-size: 18px;
+}
+
+.user__block_menu li.message span {
+  background-color: #fc162b;
+}
+
+.user__block_menu li.notice span {
+  background-color: #00dba6;
+}
+
+.header__middle_user .close {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
